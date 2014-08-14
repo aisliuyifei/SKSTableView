@@ -307,10 +307,10 @@ CGFloat const kDefaultCellHeight = 44.0f;
             {
                 [_SKSTableViewDelegate tableView:tableView didSelectRowAtIndexPath:correspondingIndexPath];
             }
-            else
-            {
-                [_SKSTableViewDelegate tableView:self didSelectSubRowAtIndexPath:correspondingIndexPath];
-            }
+            // else
+            // {
+            //     [_SKSTableViewDelegate tableView:self didSelectSubRowAtIndexPath:correspondingIndexPath];
+            // }
         }
     }
     else
